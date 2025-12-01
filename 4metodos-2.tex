@@ -1,0 +1,29 @@
+\subsection{Métodos de Medição}
+
+As amostras foram analisadas por PIXE no Laboratório de Análise de Materiais por Feixes Iônicos (LAMFI/USP). As medições foram realizadas utilizando um feixe de prótons com energia de \SI{2.6}{\mega\electronvolt} a \SI{3.4}{\mega\electronvolt} e corrente de \SI{3}{\nano\ampere} a \SI{5}{\nano\ampere}. O diâmetro do feixe foi ajustado para aproximadamente \SI{1}{\milli\metre}, e o tempo de irradiação de cada ponto foi de cerca de \SI{600}{\second}, garantindo boa estatística sem degradação perceptível das amostras.
+
+O arranjo experimental se baseia no feixe externo, como se mostra como na figura \ref{fig:medicao_pixie_dupla}, onde a amostra esta posicionada a frente do feixe e do detector.
+\begin{figure}[H]
+	\centering
+	
+	\includegraphics[width=0.7\textwidth]{Métodos/Captura de tela de 2025-10-24 19-48-51-1.png}\\[1em]
+	\includegraphics[width=0.7\textwidth]{Métodos/Captura de tela de 2025-10-24 19-49-27-1.png}
+	\caption{Vistas do sistema experimental durante as medições PIXE realizadas no LAMFI: superior exibe uma visão geral do arranjo experimental; inferior exibe amostra de frente.}
+	\label{fig:medicao_pixie_dupla}
+\end{figure}
+
+
+Os espectros obtidos foram posteriormente processados e calibrados em energia e intensidade, pelo software QXAS (\textit{Quantitative X-ray Analysis System}), permitindo a determinação quantitativa dos elementos presentes nas amostras. 
+
+
+\subsection{Métodos de Análise}
+
+ A solução envolve minimizar $\chi^2$ dado por 
+\begin{equation}
+	\chi^{2} = \sum_{i k} \left( \frac{Y_{i}^{k*}}{A_{k}} - \sum_{j} T_{ij}^{k} x_{ij} \right)^{2}.
+\end{equation}
+até encontrar valores satisfatórios para $x_{ij}$
+
+
+
+

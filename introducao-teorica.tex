@@ -1,0 +1,142 @@
+\section{Fundamentação teórica}
+\subsection{Descrição dos Fenômenos atrelados ao PIXE}
+blablabla ionização
+pegar base na dissertação do pedro, livre doc do manfredo e nesse aburaya 2005
+
+\subsection{Equação fundamental do PIXE}
+Iniciando com uma análise quantitativa do PIXE, como primeiro passo é necessário definir a forma de estabelecer cálculo de concentrações das substâncias analisadas, a partir dos dados de contagens dos raios X emitidos e das especificações do aparato experimental. O desenvolvimento teórico que se segue, baseou-se em \cite{Johansson_Campbell_1995,  Tabacniks_2005_LivreDocencia, Aburaya_2005, Campos_2010, Seabra_TCC, smitholc2004, SMIT20082047}
+
+Introduzindo o conceito de seção de choque $\sigma$, como sendo uma medida da probabilidade de um evento ocorrer, e sendo definida experimentalmente no referencial do laboratório, sua equação diferencial por um angulo sólido $\Omega$ do detector é dada por $\frac{d\sigma}{d\Omega} = \frac{N_D} {N_P}\frac{A}{N_A} \frac{1}{\Omega}$, com $N_D$ sendo o número de fótons detectados, $N_P$ número de prótons incidentes $A$ a área frontal do alvo, e $N_A$ o número de núcleos do alvo \cite{Leo_1994_TechniquesNuclearParticle}.Para considerar que o número de fótons produzidos $dN_x$ é o mesmo do número detectado é necessário que não há interações físicas entre o fóton produzido e o detector, como em casos reais isso não se faz realidade, é necessário uma conversão destes dada a partir da eficiência $\epsilon$ do detector e de um fator de transmissão que considera a atenuação dos raio X até a superfície, dada pela lei de Beer-Lambert \cite{Mayerhofer_Pahlow_Popp_2023}, o número de fótons que irá emergir à superfície, irá ser atenuado por $e^{-\micro * x_{out}}$, com $\micro$ sendo o coeficiente de atenuação e $x_{out}$ o caminho de saída do fóton irradiado na amostra assim como representado pela figura \ref{fig:testelatex}.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.6\linewidth]{../TesteLatex/bitmap.png}
+	\caption{Representação gráfica geométrica do modelo de ionização simplificado.}
+	\label{fig:testelatex}
+\end{figure}
+
+
+Desta forma o caminho de entrada percorrido pela próton, perdendo energia pelo poder de freamento é 
+\begin{equation}
+	x_{in}(E) = \int_{E_{0}}^{E_{f}} \frac{dE}{\rho S_M(E)}
+	\label{eq:x_in} 
+\end{equation}
+com $\rho$ a densidade total; e sendo assim, pela geometria do problema o caminho de saída fica resultado como 
+\begin{equation}
+	x_{out}(E) = \frac{\cos(\alpha)}{\cos(\beta)}\int_{E_{0}}^{E_{f}} \frac{dE}{\rho S_M(E)}
+	\label{eq:x_out} 
+\end{equation}
+Pela lei de Bragg \cite{Tabacniks_2005_LivreDocencia}, o poder de freamento da matriz M ($S_M(E)$) é a soma dos poderes de freamento individuais ($S_Z(E)$), ponderada pela concentração dos elementos presente, e é dada por $S_M(E) = - \rho ^{-1} \frac{dE}{dx}$. Definindo somente um fator de transmissão em função de um coeficiente de atenuação de massa $\micro / \rho$ como 
+\begin{equation}
+	T_z(E) = exp \big[-\big(\frac{\micro}{\rho}\big)_{M,Z} \frac{\cos(\alpha)}{\cos(\beta)}\int_{E_{0}}^{E_{f}} \frac{dE}{S_M(E)}\big]
+	\label{eq:T(E)}
+\end{equation}
+
+E pela lei de Bragg também, o coeficiente de atenuação  $\micro$ será combinação linear dos componentes
+da matriz de modo $\mu_i = \sum_{n} \frac{\rho_n}{\rho} \, \mu_{i,n}$ com $\rho_n$ a concentração do elemento componente da matriz \cite{Aburaya_2005}.
+
+Desta forma, para o número de partículas detectadas, teremos $N'_{D} = N_x T_Z(E) \epsilon$, de forma que $N_X$ se iguala ao valor antigo de $N_D$. 
+
+Analisando somente uma fração do elemento, dado por uma variável $dx$ de profundidade, teremos uma fração dos raios X em função desta profundidade e integrando o angulo sólido analisado do detector, teremos o numero de fótons detectados como  
+
+\begin{equation}
+	dN'_{Dx} = T_Z(E) \epsilon {N_P} \frac{N_A}{A} \frac{\Omega}{4 \pi} \sigma_x dx
+	\label{eq:dN'_X}
+\end{equation}
+com agora $\sigma_x$ explicito como a seção de choque de produção de raio x, e  $dx$ sendo a profundidade da amostra. Convertendo a variável para energia por \ref{eq:x_in}, separando a  analise para apenas um elemento $Z$ com uma transição $i$, atenuando pela lei de Beer-Lambert, e considerando um detector real com uma eficiência $\epsilon_Z^i$, referente a este elemento e esta transição, resulta-se em um número de fótons detectados como
+
+\begin{equation}
+	dN_{Di}^Z = \epsilon_Z^i(\frac{\Omega}{4 \pi})  \frac{ N_P N_A^Z \sigma(E) T_Z(E)}{A \rho S_M(E)}dE
+	\label{eq:dY_i^Z}
+\end{equation}
+
+Para mapear todo o número de fótons detectados ao longo da profundidade da amostra basta integrar para toda a energia, considerando uma inicial $E_0$ e a final $E$. Convertendo o número de próton para $\frac{Q}{e}$ já que o valor medido pelo equipamento é a corrente do material, e também $\frac{N_A^Z }{A} =\frac{m_A^Z N_0}{A M_A^Z}$ passando de $at/cm^2$ para $g/cm^2$ já que $M_A^Z$ é a massa atômica de Z, $m_A$ a massa da região e $N_0$ o número de Avogrado
+
+
+\begin{equation}
+	Y_{i}^Z = \frac{Q}{e} \frac{N_0}{M_A^Z} \frac{m_A^Z}{A \rho } \epsilon_Z^i(\frac{\Omega}{4 \pi}) \int_{E_{0}}^{E_{f}} \frac{\sigma(E) T_Z(E)}{S_M(E)}dE
+	\label{eq:Y^Z}
+\end{equation}
+e pode-se notar que o termo $\frac{m_A}{A \rho }$ se resume a uma concentração do elemento Z, podendo portanto ser substituída por $C_Z$.
+
+Por último é de extrema importância que o termo da seção de choque seja corretamente analisado, dado que o que estamos observando até o momento é a seção de choque de produção de raios X detectada pelo aparato. Porém como estamos trabalhando com ionização por protons, a seção de choque de ionização deste aparato difere por um fator de rendimento de fluorescência $\omega_Z$, e outro da fração da intensidade da linha $b_Z$ de modo que resultaremos na equação fundamental para o PIXE
+
+\begin{equation}
+	Y_{i}^Z = \frac{Q}{e} \frac{N_0 \omega_Z b_Z }{M_A^Z} C_Z \epsilon_Z^i(\frac{\Omega}{4 \pi}) \int_{E_{0}}^{E_{f}} \frac{\sigma_I(E) T_Z(E)}{S_M(E)}dE
+	\label{eq:FUNDPIXE}
+\end{equation}
+
+
+\subsection{Aproximação de alvos finos}
+Quando o elemento analisado tem uma espessura fina o suficiente, para considerar que não há absorção dos fótons produzidos pelo próprio corpo, ou seja $T_Z(E) \approx 1$, desenvolvido a partir de \cite{Tabacniks_2005_LivreDocencia, Tabacniks_AnalisePIXE_RBS, Campos_2010}.
+
+Trabalhando a partir da equação \ref{eq:FUNDPIXE}, tem-se para essa aproximação
+
+\begin{equation}
+	Y_{i}^Z = \frac{Q}{e} \frac{N_0 \omega_Z b_Z }{M_A^Z} C_Z \epsilon_Z^i(\frac{\Omega}{4 \pi}) \sigma_I(E_0)
+	\label{eq:alvfin1}
+\end{equation}
+onde o termo integral simplifica-se apenas para o cálculo da seção de choque de ionização referente a energia inicial.
+
+Nomeando um termo de calibração de alvos finos como $r_i$, a equação se simplifica em uma relação linear da contagem de raio x com a concentração da substância tal como 
+
+\begin{equation}
+	Y_{i}^Z = {Q} r_i C_Z
+	\label{eq:alvosfinos}
+\end{equation}
+
+desta forma é possível traçar relações simplificadas conhecido o parâmetro $r_i$, ou ainda o oposto, conhecendo uma concentração de uma amostra é possível identificar o parâmetro a partir disso.
+
+\subsection{Formalismo para alvos grossos}
+
+Para alvos grosso, teremos novamente o modelo complexo como descrito pela equação \ref{eq:FUNDPIXE}, porém por facilidade experimental, é possível estender a equação \ref{eq:alvosfinos} para que mantenha a constante de calibração, tendo os embasamentos desenvolvidos por \cite{Tabacniks_2005_LivreDocencia, Campbell_Cookson_Paul_1983, T_Anal}.
+
+Iniciando unindo as equações \ref{eq:FUNDPIXE} e \ref{eq:alvosfinos}, e normalizando a seção de choque variável, pela seção de choque na energia inicial.
+
+\begin{equation}
+	Y_{i}^Z = {Q} r_i C_Z \int_{E_{0}}^{E_{f}} \frac{\sigma_I(E)}{\sigma_I(E_0)} \frac{T_Z(E)}{S_M(E)}dE
+	\label{eq:Alvos_grossos_inic}
+\end{equation}
+
+E nomeando uma variável como $R_M$ em que seu valor seja o da integral da equação anterior. A equação se simplifica portanto de uma forma linear, como
+
+\begin{equation}
+	Y_{i}^Z = {Q} R_M r_i C_Z 
+	\label{eq:Alvos_grossosf_fin}
+\end{equation}
+
+
+\subsection{Modelo semiempírico de Johansson e Campbell da seção de choque de ionização}
+
+blablabla pegar livre doc do manfredo. Se não rolar, voltar pro isics
+
+\subsection{Atribuição do coeficiente de atenuação e do poder de freamento}
+
+pegar livre doc do manfredo, se não rolar pegar refs no vídeo do tiago
+
+\subsection{Aplicação do PIXE Diferencial}
+
+Recalcular as coisas pra esse modelo...
+
+Para a realização da análise, será utilizado PIXE diferencial. Quando se deseja determinar concentrações de elementos químicos em função da profundidade, são realizadas medidas sequenciais com variação progressiva de energia; a resolução da análise depende do valor do incremento e do número de incrementos de energia \cite{SmitHolc2004}. 
+
+Algoritmos de deconvolução podem ser aplicados para caracterizar a composição química em profundidades específicas \cite{SmitHolc2004, SMIT20082047}. O algorítimo se baseia em resolver a equação do rendimento de raio-X $Y_{i}^{k} = \sum_{j=1}^{N} Y_{ij}^{k}$, onde i é referente ao elemento, k o número da medida, j as camadas e N o número máximo de medidas. O que faremos é considerar estrutura composta, como sendo divididas em sub-regiões (j) homogêneas, e então será analisada individualmente cada região, de modo
+
+
+\begin{equation}
+	Y_{ij}^{k} = \frac{\Delta \Omega}{4\pi} N_p^{k} N_A 
+	\frac{\varepsilon_i \eta_i^{k}}{M_i} x_{ij} P_{ij}
+	\int_{E_{j+1}^{k}}^{E_{j}^{k}} 
+	\sigma_i^{x}(E) \exp(-\mu_{ij} \xi) 
+	\frac{\mathrm{d}E}{S_j(E)}.
+	\label{eq:yields1}
+\end{equation}
+
+Definindo $A_{k} \equiv \frac{\Delta \Omega}{4\pi} N_{p}^{k} N_{A}$ como número de próton generalizado,  
+
+$T_{ij}^k \equiv P_{ij} \int_{E_{j+1}^{k}}^{E_{j}^{k}} \sigma_i^{x}(E) \exp(-\mu_{ij} \xi)\frac{\mathrm{d}E}{S_j(E)}$ como \textit{Thick Target Factor} e $Y_{i}^{k*} = Y_{i}^{k} \frac{M_{i}}{\epsilon_{i} \eta_{i}^{k}}$ como o rendimento generalizado, teremos uma equação de matriz
+\begin{equation}
+	Y_{i}^{k*} = A_{k} \sum_{j} T_{ij}^{k} x_{ij}.
+	\label{eq:Yields_reduc}
+\end{equation}
+onde $x_{ij}$ é a concentração do elemento i na camada j. Somente podemos discretizar essa concentração da integral aproximando a concentração à uma função degrau, em relação as camadas, sendo homogênea perante a divisão realizada. O elemento de matriz $T_{ij}^k$ depende da integral de (\ref{eq:yields1}) e de $P_{ij} = \exp\left( -\sum_{l<j} \mu_{il} d_l / \cos\psi \right)$, onde $d_l$ e $\mu_{ij}$ são a grossura e o coeficiente de atenuação respectivamente. Como o \textit{thickness target factor} tem contido o $x_{ij}$, é necessário um procedimento iterativo para determinar ambos valores. $A_k$ é definido com base no aparato e modelo experimental.

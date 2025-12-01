@@ -1,0 +1,21 @@
+\babel@toc {brazilian}{}\relax 
+\contentsline {section}{\numberline {1}Introdução}{2}{section.1}%
+\contentsline {section}{\numberline {2}Fundamentação teórica}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Descrição dos Fenômenos atrelados ao PIXE}{4}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Equação fundamental do PIXE}{4}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Aproximação de alvos finos}{6}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Formalismo para alvos grossos}{6}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Modelo semiempírico de Johansson e Campbell da seção de choque de ionização}{6}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Atribuição do coeficiente de atenuação e do poder de freamento}{6}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}Aplicação do PIXE Diferencial}{6}{subsection.2.7}%
+\contentsline {section}{\numberline {3}Objetivos}{7}{section.3}%
+\contentsline {section}{\numberline {4}Materiais e Métodos}{7}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Materiais de estudo}{7}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Métodos de preparação}{7}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}Estudos iniciais}{7}{subsubsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}Produção de pastilhas}{8}{subsubsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.3}Métodos de Medição}{12}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Métodos de Análise}{13}{subsection.4.4}%
+\contentsline {section}{\numberline {5}Resultados e discussão }{13}{section.5}%
+\contentsline {section}{\numberline {6}Atividades futuras }{15}{section.6}%
+\contentsline {section}{Referências}{15}{section.6}%

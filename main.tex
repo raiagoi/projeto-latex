@@ -1,0 +1,151 @@
+\documentclass[12pt,a4paper,english,brazil]{exam}
+\usepackage[brazilian]{babel}
+\usepackage{lmodern}            % Usa a fonte Latin Modern
+\usepackage[T1]{fontenc}        % Selecao de codigos de fonte.
+\usepackage[utf8]{inputenc}     % Codificacao do documento (conversão automática dos acentos) seção.
+\usepackage{breakcites}
+\usepackage{setspace}           % Espaçamento
+\usepackage{graphicx}      % Para incluir imagens
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{systeme}
+\usepackage{hyperref}  %Referencia no clique
+\usepackage{amssymb}
+\usepackage{cite}
+\usepackage{geometry}
+\usepackage{braket}
+\geometry{
+	a4paper,
+	total={170mm,257mm},
+	left=20mm,
+	top=20mm,
+}
+\usepackage[version=4]{mhchem}
+\usepackage{multicol}
+\usepackage{mathtools}
+\usepackage{wrapfig}
+\usepackage{siunitx}           % Para unidades (SI)
+\usepackage{caption}           % Para legendas personalizadas
+\usepackage{chemformula}       % Para fórmulas químicas (\ce{})
+\usepackage{tikz}
+\usepackage{adjustbox}
+\usepackage{indentfirst}
+\usepackage{float}
+\usepackage{ragged2e}
+\usepackage{blindtext}
+\usepackage{verbatim}
+\usepackage{xcolor}
+\usepackage{tcolorbox}
+\usepackage{gensymb}
+\usepackage{pdfpages}
+\usepackage{listings} % Adiciona o pacote listings
+\usepackage[acronym,style=indexgroup]{glossaries-extra}
+\usepackage{ragged2e}
+\usepackage[normalem]{ulem}
+\usepackage{subcaption}
+
+
+
+\usepackage[autostyle]{csquotes}
+\MakeOuterQuote{"}
+
+\definecolor{darkpink}{RGB}{255, 20, 147} % Rosa forte (Deep Pink)
+
+\lstset{ % Configurações do pacote listings
+	language=C++, % Nome fictício para a linguagem
+	morekeywords={run, wait, getPixel, for, if, else, set, exit}, % Palavras-chave do ImageJ Macro
+	sensitive=true, % Define a sensibilidade a maiúsculas e minúsculas
+	morestring=[b]", % Strings delimitadas por aspas
+	morecomment=[l]//, % Comentários de linha
+	morecomment=[s]{/*}{*/}, % Comentários de bloco
+	basicstyle=\ttfamily\footnotesize, % Define a fonte básica
+	keywordstyle=\color{blue}, % Define a cor das palavras-chave
+	stringstyle=\color{darkgreen}, % Define a cor das strings
+	commentstyle=\color{darkpink}, % Define a cor dos comentários
+	numbers=left, % Adiciona numeração das linhas
+	numberstyle=\tiny\color{gray}, % Define o estilo da numeração das linhas
+	stepnumber=1, % Numera todas as linhas
+	numbersep=10pt, % Espaço entre a numeração e o código
+	backgroundcolor=\color{white}, % Cor de fundo
+	showspaces=false, % Não mostra espaços em branco
+	showstringspaces=false, % Não mostra espaços em strings
+	showtabs=false, % Não mostra tabulações
+	tabsize=4, % Define o tamanho da tabulação
+	captionpos=b, % Posição da legenda
+	breaklines=true, % Permite quebra de linha
+	breakatwhitespace=false, % Quebra de linha em espaços em branco
+	escapeinside={\%*}{*)} % Para incluir comandos LaTeX dentro do código
+}
+
+\lstnewenvironment{cpp}[1][]{%
+	\lstset{
+		language=C++, % Escolha a linguagem de programação
+		basicstyle=\ttfamily\footnotesize, % Define a fonte básica
+		keywordstyle=\color{blue}, % Define a cor das palavras-chave
+		stringstyle=\color{darkgreen}, % Define a cor das strings
+		commentstyle=\color{darkpink}, % Define a cor dos comentários
+		numbers=left, % Adiciona numeração das linhas
+		numberstyle=\tiny\color{gray}, % Define o estilo da numeração das linhas
+		stepnumber=1, % Numera todas as linhas
+		numbersep=10pt, % Espaço entre a numeração e o código
+		backgroundcolor=\color{white}, % Cor de fundo
+		showspaces=false, % Não mostra espaços em branco
+		showstringspaces=false, % Não mostra espaços em strings
+		showtabs=false, % Não mostra tabulações
+		tabsize=4, % Define o tamanho da tabulação
+		captionpos=b, % Posição da legenda
+		breaklines=true, % Permite quebra de linha
+		escapeinside={\%*}{*)} % Para incluir comandos LaTeX dentro do código
+}}{}
+
+\makeatletter
+\renewcommand\tableofcontents{%         % Redefine table of contents to our taste
+	\section*{\huge\centering\contentsname
+		\@mkboth{%
+			\MakeUppercase\contentsname}{\MakeUppercase\contentsname}}%
+	\vspace{24pt}%
+	\@starttoc{toc}%
+	\thispagestyle{empty}
+}
+
+
+\usetikzlibrary{calc,patterns,angles,quotes}
+
+
+\definecolor{darkgreen}{RGB}{0, 100, 0}
+\captionsetup[subfigure]{labelformat=empty, font=footnotesize}
+
+
+\renewcommand*\contentsname{Sumário}
+\renewcommand{\figurename}{\textbf{Figura}}
+\renewcommand{\tablename}{\textbf{Tabela}}
+
+
+
+\newcommand{\sg}{$\sigma$}
+\newcommand{\omg}{$\Omega$}
+\newcommand{\gr}{\degree}
+\newcommand{\gm}{$\gamma$}
+\newcommand{\dl}{$\delta$}
+\newcommand{\m}{$\mu$}
+\newcommand{\mgcm}{\m $g$/$cm^2$}
+\begin{document}
+	\input{0title}
+	
+	\tableofcontents
+	\newpage
+	
+	\input{2introducao}
+	\input{introducao-teorica}
+	
+	\input{3objetivos}
+	\input{4metodos}
+	\input{4metodos-2}
+	\input{5Resultados}
+	\input{6Proxpasso}
+	
+	
+	\addcontentsline{toc}{section}{Referências}
+	\bibliographystyle{apalike}
+	\bibliography{8mybib}
+\end{document}

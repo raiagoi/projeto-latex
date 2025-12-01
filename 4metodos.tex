@@ -1,0 +1,159 @@
+\section{Materiais e Métodos}
+\subsection{Materiais de estudo} 
+
+Para este estudo, foram utilizados tecidos musculares da vértebra de um peixe -- amostra GP2E7781G -- e tecidos do proventrículo(órgão do sistema digestório) preservado de um grilo -- amostra GP1E11237C. Os fósseis estudados são provenientes da Coleção Científica de Paleontologia do Instituto de Geociências da Universidade de São Paulo.
+
+\subsection{Métodos de preparação}
+\subsubsection{Estudos iniciais}
+Inicialmente, foi feito um estudo acerca das composições dos fósseis estudados, identificando a espessura e os elementos químicos associados a diferentes camadas das amostras, obtidos a partir da análise por FIB-SEM-EDS, a qual foi realizada previamente no Laboratório Nacional de Nanotecnologia (LNNano), pertencente ao Centro Nacional de Pesquisa em Energia e Materiais (CNPEM). Essa etapa foi apresentada no primeiro relatório, tendo sido possível utilizar as medições para a produção de padrões com espessuras similares às encontradas nos tecidos preservados e realizar simulações para a construção de um modelo que será replicado nos fósseis. Para o caso da preservação do espécime GP1E11237C teremos $\ce{CaHPO_4}$ em cima de óxidos e hidróxidos de ferro, e para piritização originalmente consideramos $Fe_2O_3$, que representa a oxidação de pirita, sobre fosfatos de cálcio.
+
+\subsubsection{Produção de pastilhas}
+Nesta etapa do trabalho, foram realizadas simulações dos tecidos, em relação à distribuição de cada composto por sua espessura, no formato de pastilhas duplas. Iniciou-se pela confecção de pastilhas com padrões comerciais de $\ce{CaHPO4}$ e $\ce{Fe2O3}$, ambos da marca Dinâmica com 95\% de pureza. Para atestar os compostos presentes neste materiais, realizou-se espectroscopia de fluorescência de raios X, no sistema constituído por fonte de raios X mini Amptek e detector SDD Amptek XR-100 FAST SDD, com 25V e 300 segundos de aquisição, um método de análise por emissão atômica utilizado para caracterização elementar \cite{etde_7035934}. As medidas foram realizadas no Laboratório de Arqueometria e Ciências Aplicadas ao Patrimônio Cultural (LACAPC), no IFUSP. Neste processo, foi somente identificada uma contaminação de $Fe$ no padrão de $CaHPO_4$, que foi levada em consideração no processo de análise.
+
+\begin{figure}[H]
+	\begin{minipage}[b]{0.60\linewidth}
+		\setlength{\parindent}{2em} % ativa a indentação
+		Seguiu-se com a produção das pastilhas em uma prensa hidráulica manual — marca Beckman Fig. (\ref{fig:prensa_hidraulica_manual}), com capacidade máxima de 25 toneladas empregada para a compactação do material particulado. O procedimento consiste em posicionar o material dentro do pastilhador, ajustando-se a quantidade em função do resultado desejado, e com cautela para garantir uma compactação homogênea. Em seguida, aplica-se gradualmente a pressão até atingir o valor desejado. 
+		
+		Também foi utilizado um pastilhador de 5 mm de diâmetro, em conjunto com uma base e seu êmbolo conforme ilustrado na Figura \ref{fig:pastilhador}, empregado para moldar e comprimir o pó sob pressão controlada. Os pastilhadores são de propriedade e confecção própria do Laboratório Aberto de Física Nuclear (LAFN) do IF-USP, feitos em aço inoxidável.
+	\end{minipage}
+	\hfill
+	%--- Coluna das figuras à direita ---
+	\begin{minipage}[b]{0.36\linewidth}
+		\centering
+		\begin{subfigure}[b]{\linewidth}
+			\centering
+			\caption{ }\includegraphics[width=0.78\linewidth]{Métodos/prensa_hidraulica_manual-1.png}
+			\label{fig:prensa_hidraulica_manual}
+		\end{subfigure}
+		
+		
+		\begin{subfigure}[b]{\linewidth}
+			\centering
+			\includegraphics[width=0.79\linewidth]{Métodos/pastilhador-1.png}
+			\caption{Figura 1 (a): Prensa 
+				hidráulica. \\ (b):Pastilhador}
+			\label{fig:pastilhador}
+		\end{subfigure}
+	\end{minipage}
+	\label{fig:equipamentos_pastilhas}
+\end{figure}
+
+Foram realizados dois modelos de pastilhas: o primeiro simulando o processo de piritização exterior, ou seja, com uma camada fina do padrão de $Fe_2O_3$ sobreposta à camada grossa de $CaHPO_4$ 2(a); o segundo segue o mesmo processo, porém invertendo-se os compostos 2(b). 
+
+\begin{figure}[H]
+	\centering
+	\begin{subfigure}[b]{0.45\linewidth}
+		\centering
+		\includegraphics[width=0.85\linewidth]{Métodos/path2625-1.png}
+		\caption{a) Modelo 1: Patilha de $Fe_2O_3$ sobre $CaHPO_4$.}
+		\label{fig:filmeFe2O3_CaO}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{0.45\linewidth}
+		\centering
+		\includegraphics[width=0.85\linewidth]{Métodos/path2624-1.png}
+		\caption{b) Modelo 2: Patilha de $CaHPO_4$ sobre $Fe_2O_3$.}
+		\label{fig:filmeCaO_Fe2O3}
+	\end{subfigure}
+	\caption{Modelos de produção de filmes finos em diferentes combinações de substrato e material depositado.}
+	\label{fig:modelos_filmes}
+\end{figure}
+
+A base da pastilha foi prensada  inicialmente com uma carga de 1 tonelada por 10 segundos para formar uma estrutura uniforme. Sobre esta base, o padrão superior foi depositado, e uma segunda prensagem foi aplicada, desta vez com 3 toneladas por 30 segundos. As quantidades de material utilizados foram estimadas pensando em um corpo verde ideal, com densidade relativa máxima, logo, buscando obter a espessura estimada na primeira etapa deste trabalho - entre $0.9\mu m$ e $40 \mu m$ para o $Fe_2O_3$, e entre $0.2\mu m$ e $0.7 \mu m$ para o $CaHPO_4$.
+
+Para o modelo 1, foram realizadas três pastilhas, utilizando aproximadamente 50 mg de $CaPO_4$ na base e variando-se entre 4 e 11 mg de $Fe_2O_3$ \ref{fig:pellet1}, tendo uma boa estabilidade após a prensagem e podendo-se estimar uma espessura da camada superior próxima a $50 \mu m$. Nota-se que essas espessuras correspondem apenas à camada superficial, mais externa (Fig. 2), visto que o interesse do experimento está na sondagem da interface entre compostos distintos. Como as dimensões extrapolam às desejadas, máximo de 40 um, foi realizado um novo processo para tentar suprir esta adversidade, prensando duas pastilhas com a mesma quantidade de $CaHPO_4$, porém agora o padrão de $Fe_2O_3$ foi adsorvido na pastilha já confeccionada, a partir de uma solução do mesmo com álcool isopropílico Fig. \ref{fig:pellet2}. A espessura das últimas duas não pôde ser estimada pelo alto número de incertezas que envolvem o processo; porém, notou-se que a distribuição deste composto na pastilha foi difusa, de modo a ter uma concentração não heterogênea em contrapartida às primeiras, e ter menos de 3 mg, visto que essa quantidade foi utilizada para realizar a solução e ainda restou material após a adsorção. Para este modelo 1, os três primeiros padrões foram nomeados como "pastilhas duplas", e os dois últimos como "pastilhas adsorvidas".
+
+\begin{figure}[H]
+	\centering
+	\begin{subfigure}[b]{0.3\linewidth}
+		\centering
+		\includegraphics[width=0.8\linewidth]{Métodos/pellet1-1.png}
+		\caption{a) Pastilha dupla.}
+		\label{fig:pellet1}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{0.3\linewidth}
+		\centering
+		\includegraphics[width=0.8\linewidth]{Métodos/pellet2-1.png}
+		\caption{b) Pastilha adsorvida.}
+		\label{fig:pellet2}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{0.3\linewidth}
+		\centering
+		\includegraphics[width=0.77\linewidth]{Métodos/pellet3-1.png}
+		\caption{c) Pastilha tripla.}
+		\label{fig:pellet3}
+	\end{subfigure}
+	
+	\caption{Pastilhas produzidas a depender dos diferentes modelos.}
+	\label{fig:pelletfinal}
+\end{figure}
+
+Já no caso das pastilhas do modelo 2, foram realizadas também 3 pastilhas. As limitações que perduraram esta produção envolveram essencialmente a baixa adesão e alta porosidade do óxido de ferro. No processo de desenformar-las, suas base se rompiam por estar muito quebradiças, necessitando de uma mudança de planejamento. Foi pensado em fazer uma "pastilha tripla" Fig. \ref{fig:pellet3}, sendo a base de um material que não afetariam as análises posteriores, como o ácido bórico, seguido da base inicial que seria o óxido, e por último o fosfato bibásico. A pastilha tripla, assim nomeada, teve uma estruturação melhor em relação à somente a base de $Fe_2O_3$, porém o mínimo de material de fosfato utilizado foi na ordem de 5 mg, adquirindo espessuras muito superiores a $0,7\mu m$ (o limite máximo de espessura).
+
+
+Como foi evidenciado, no processo de preparação das pastilhas, as espessuras não atenderam, e, quando muito, apenas se aproximaram do valor ideal, necessitando uma forma mais refinada de produção para se adequar melhor tanto às limitações experimentais quanto ao próprio processo de fossilização. Para isto, iniciou-se uma etapa de produção de filmes finos dos elementos encontrados em conjunto com o Laboratório de Micro e Nano Fabricação do Instituto Mackenzie de Pesquisas em Grafeno e Nanotecnologias (Lab-MackNano), e com Laboratório de Sistemas Integráveis (LSI) da Escola Politécnica da USP (POLI-USP).
+
+Como as pastilhas de modelo 1, com óxido de ferro superior, atingiram espessuras próximas, mesmo extrapolando o limite, foi escolhido iniciar o processo de confecção dos filmes finos pelo modelo 2. Todo este processo esta sendo desenvolvido até o momento no Lab-MackNano. 
+
+O fosfato bibásico, em sua sinterização e, posteriormente, sua evaporação por \textit{sputtering}, tem um comportamento não trivial, pois ele se decompõem em temperaturas baixas, inicialmente próximo a 400ºC \cite{AcuneytCaHPO4}. Como alternativa, foi escolhido calcinar este material, a 1000ºC na atmosfera ambiente, por duas horas em uma mufla Quimis Q-318M24, presente no Laboratório de Dosimetria do IF-USP. Na calcinação, o fosfato de cálcio bibásico perde água, tanto a absorvida pela umidade do meio, quanto de sua própria estrutura pelo processo 
+
+\[
+\ce{2 CaHPO4.2H2O ->[ \Delta ] Ca2P2O7 + 5 H2O}
+\]
+
+formando o pirofosfato de cálcio $\ce{Ca2P2O7}$. A decomposição da forma dihidratada do fosfato de cálcio em anidro ocorre próximo a 180ºC, e a formação do pirofosfato se inicia próximo a 450ºC e perdura até temperaturas superiores\cite{AcuneytCaHPO4}. Após isso, ocorre a mudança de fase do pirofosfato, sendo formado o $\ce{\beta-Ca2P2O7}$ entre 850ºC a 1000ºC. A escolha da temperatura de calcinação ser 1000ºC foi motivada por marcar o fim da transição de fase do pirofosfato e de já não ter fosfato bibásico presente no composto. 
+
+Tendo o material de pirofosfato sido produzido, foi analisado para identificar a mudança estrutural, por meio de espectroscopia Raman, um outro método de análise composicional. Esta técnica identifica as vibrações das ligações moleculares por meio do espalhamento do feixe de luz incidido na amostra. O equipamento utilizado (EZRaman-I Series High Performance Portable Raman Analyzer) empregando o laser de 785 nm, com 30 segundos de aquisição. Os resultados (\ref{fig:Raman}) apresentam uma diferença significativa, tendo perdido picos característicos das ligações do fosfato. Além disto, surgiram picos em valores mais altos de deslocamento Raman (cm-1), que podem representar possíveis ligações de carbono com nitrogênio, devido a uma contaminação, já que a produção foi realizada em atmosfera comum. Contudo, isso não afeta os resultados desejados.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{Métodos/plotest-1.png}
+	\caption{Gráfico da intensidade em unidades arbitrárias pelo \textit{Raman shift} das amostras antes e depois da calcinação}
+	\label{fig:Raman}
+\end{figure}
+
+
+
+A sinterização do pirofosfato já é conhecida e tem melhores resultados em comparação ao fosfato de cálcio bibásico \cite{Wang1993}, visto que a calcinação deste não pode envolver temperaturas elevadas. Inicialmente, foi realizado um teste para identificar a densidade relativa do alvo sinterizado, afim de descobrir se seria possível a evaporação; assim, o pirofosfato foi moído e pastilhado inicialmente com $4.02 g$, utilizando um pastilhador de $20 mm$ de diâmetro, utilizando-se 8 toneladas. O corpo verde ficou com uma densidade relativa de aproximadamente 80\%. Também foi realizado uma pastilha de $\ce{CaHPO4}$ com as mesmas especificações do pirofosfato, porém com uma massa de $4,06g$, o que resultou em uma densidade relativa no corpo verde de aproximadamente 60\%.
+
+\begin{figure}[H]
+	\centering
+	\begin{subfigure}[b]{0.45\linewidth}
+		\centering
+		\includegraphics[width=0.8\linewidth]{Métodos/Texto do seu parágrafo (1080 x 1080 px)(1)-1.png}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{0.45\linewidth}
+		\centering
+		\includegraphics[width=0.85\linewidth]{Métodos/Texto do seu parágrafo (1080 x 1080 px)-1.png}
+	\end{subfigure}
+	\caption{Resultado da sinterização: a esquerda os corpos verdes, e a direita o resultado final. As pastilhas marcadas com 1 são formadas pelo pirofosfato, e as marcadas com 2 foram feitas inicialmente com o fosfato bibásico.}
+	\label{fig:past}
+\end{figure}
+
+O processo de sinterização foi realizado em atmosfera controlada, com 1000ºC durante 5 horas, resultando em duas pastilhas resistentes com uma densidade relativa maior do que a inicial, tendo aproximadamente 70\% e 85\% para $\ce{CaHPO4}$ e $\ce{Ca2P2O7}$ respectivamente. A pastilha de fosfato bibásico apresentou buracos fundos em sua superfície, possivelmente devido a saída da água da molécula durante a sinterização. 
+
+O último passo para a produção do filme fino agora é a sinterização do alvo no tamanho ideal, visto que o teste inicial apresentou resultados satisfatórios, seguido da evaporação do mesmo sobre substrato ou sobre folhas de ferro oxidadas.
+
+Para o modelo 1, com o óxido de ferro superior, também foi necessário realizar filmes finos, já que a espessura das pastilhas não se fez idêntica ao desejado. Para este processo, a confecção dos alvos não é complexa como do material anterior, e pela espessura e por ser um material metálico, a evaporação por \textit{Electron-Beam} será mais adequada, sendo esta realizada no LSI-USP. Para simplificar o processo, a evaporação será realizada sobre pastilhas de fosfato, ao invés de realizar um filme duplo. As pastilhas foram produzidas com aproximadamente $150 mg$ e 1 cm de diâmetro, coladas em cima de suportes de aço inox com um diâmetro de abertura de 0.8 cm.
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\linewidth]{Métodos/alvos-1.png}
+	\caption{Pastilhas base para evaporação dos filmes de ferro produzidos e colados em seus suporte.}
+	\label{fig:placehold}
+\end{figure}
+
+O próximo passo para este modelo é a realização da evaporação do ferro sobre estas pastilhas, seguida da oxidação das mesmas.
+
+
+
+
+
+
+
+
