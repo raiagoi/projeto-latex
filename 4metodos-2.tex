@@ -17,7 +17,28 @@ Os espectros obtidos foram posteriormente processados e calibrados em energia e 
 
 
 \subsection{Métodos de Análise}
+\subsection{Aproximação para alvos finos}
+Inicialmente para estimar a espessura dos padrões produzidos, foi aproximado sua superfície a filmes finos, de modo a possibilitar o cálculo a partir da equação \ref{eq:alvosfinos}, porém algumas mudanças precisam ser feitas para ter uma melhor aproximação neste caso. Inicialmente há de se considerar que a composição da camada superior tem uma presença de oxigênio, que não é detectado devido aos parâmetros do PIXE. Utilizando da proporção de massa molar de Ferro presente na molécula de Fe${}_2$O${}_3$, temos uma conversão da concentração total em função da concentração de Ferro dada por
 
+\begin{equation}
+	C_{total} \approx C_{Fe} *  1,43
+	\label{eq:concentracao_total}
+\end{equation}
+em que pode ser estimada sem a necessidade de medidas diretas do oxigênio contido na amostra.
+
+Para encontrar a espessura é preciso correlacionar com a densidade superficial característica do óxido de ferro em questão, sendo em $1 \micro$m tendo $523,96\micro$m $cm^{-2}$. Assim convertendo a equação \ref{eq:alvosfinos} com estes novos parâmetro para encontrar as espessuras média tem-se
+
+\begin{equation}
+	d_{Fe_2O_3} = \frac{Y^{Fe}_{K_\alpha}}{Q_{Fe} * r_{K_\alpha}^{E_0}} * 2,73 * 10^{-3}
+	\label{eq:d_alvos_finos}
+\end{equation}
+
+com o resultado sendo obtido em $\micro$m. A limitação experimental que se obtêm é somente para a obtenção da corrente de $Q_{Fe}$ isoladamente, pois somente é obtida a corrente total da amostra. Porém para uma primeira aproximação é suficiente para investigar estes casos, além de servir como base para a expansão para alvos grossos.
+
+{\color{red} REVISAR ISSO POR SER A CORRENTE SOMENTE PARA ACHAR NUMERO DE PRÓTON}
+  
+\subsection{Aproximação para alvos grossos}
+\subsection{PIXE diferencial}
  A solução envolve minimizar $\chi^2$ dado por 
 \begin{equation}
 	\chi^{2} = \sum_{i k} \left( \frac{Y_{i}^{k*}}{A_{k}} - \sum_{j} T_{ij}^{k} x_{ij} \right)^{2}.

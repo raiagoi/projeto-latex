@@ -16,6 +16,9 @@
 \contentsline {subsubsection}{\numberline {4.2.2}Produção de pastilhas}{8}{subsubsection.4.2.2}%
 \contentsline {subsection}{\numberline {4.3}Métodos de Medição}{12}{subsection.4.3}%
 \contentsline {subsection}{\numberline {4.4}Métodos de Análise}{13}{subsection.4.4}%
-\contentsline {section}{\numberline {5}Resultados e discussão }{13}{section.5}%
+\contentsline {subsection}{\numberline {4.5}Aproximação para alvos finos}{13}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}Aproximação para alvos grossos}{14}{subsection.4.6}%
+\contentsline {subsection}{\numberline {4.7}PIXE diferencial}{14}{subsection.4.7}%
+\contentsline {section}{\numberline {5}Resultados e discussão }{14}{section.5}%
 \contentsline {section}{\numberline {6}Atividades futuras }{15}{section.6}%
 \contentsline {section}{Referências}{15}{section.6}%
