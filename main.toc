@@ -14,13 +14,14 @@
 \contentsline {subsection}{\numberline {4.2}Métodos de preparação}{7}{subsection.4.2}%
 \contentsline {subsubsection}{\numberline {4.2.1}Estudos iniciais}{7}{subsubsection.4.2.1}%
 \contentsline {subsubsection}{\numberline {4.2.2}Produção de pastilhas}{8}{subsubsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.3}Métodos de Medição}{12}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Métodos de Análise}{13}{subsection.4.4}%
-\contentsline {subsection}{\numberline {4.5}Aproximação para alvos finos}{13}{subsection.4.5}%
-\contentsline {subsection}{\numberline {4.6}Aproximação para alvos grossos}{14}{subsection.4.6}%
-\contentsline {subsection}{\numberline {4.7}PIXE diferencial}{14}{subsection.4.7}%
-\contentsline {section}{\numberline {5}Resultados}{14}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Alvos finos preliminares}{14}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Resultados}{14}{subsection.5.2}%
-\contentsline {section}{\numberline {6}Atividades futuras }{16}{section.6}%
-\contentsline {section}{Referências}{16}{section.6}%
+\contentsline {subsection}{\numberline {4.3}Métodos de Medição}{13}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Métodos de Análise}{14}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Aproximação para alvos finos}{14}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}Aproximação para alvos grossos}{15}{subsection.4.6}%
+\contentsline {subsection}{\numberline {4.7}PIXE diferencial}{15}{subsection.4.7}%
+\contentsline {section}{\numberline {5}Resultados}{15}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Alvos finos preliminares}{15}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Resultados}{16}{subsection.5.2}%
+\contentsline {section}{\numberline {6}Atividades futuras }{17}{section.6}%
+\contentsline {section}{\numberline {7}Anexo}{17}{section.7}%
+\contentsline {section}{Referências}{18}{figure.caption.16}%

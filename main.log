@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.12.1)  5 DEC 2025 19:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.12.1)  5 DEC 2025 23:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1651,7 +1651,7 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 \c@lstlisting=\count475
 Package csquotes Info: Redefining character " on input line 132.
  (./0title.tex
-<imagens/USP-Brasão.jpg, id=106, 936.49875pt x 1084.05pt>
+<imagens/USP-Brasão.jpg, id=111, 936.49875pt x 1084.05pt>
 File: imagens/USP-Brasão.jpg Graphic file (type jpg)
 <use imagens/USP-Brasão.jpg>
 Package pdftex.def Info: imagens/USP-Brasão.jpg  used on input line 5.
@@ -1714,7 +1714,7 @@ been already used, duplicate ignored
                    \relax 
 l.136 	\newpage
                 [1] (./2introducao.tex [2]) (./introducao-teorica.tex [3]
-<../TesteLatex/bitmap.png, id=209, 563.85657pt x 427.5975pt>
+<../TesteLatex/bitmap.png, id=215, 563.85657pt x 427.5975pt>
 File: ../TesteLatex/bitmap.png Graphic file (type png)
 <use ../TesteLatex/bitmap.png>
 Package pdftex.def Info: ../TesteLatex/bitmap.png  used on input line 13.
@@ -1733,18 +1733,18 @@ LaTeX Warning: Citation `SmitHolc2004' on page 6 undefined on input line 121.
 LaTeX Warning: Citation `SmitHolc2004' on page 6 undefined on input line 123.
 
 [6]) (./3objetivos.tex) (./4metodos.tex [7]
-<Métodos/prensa_hidraulica_manual-1.png, id=284, 605.26125pt x 600.20235pt>
+<Métodos/prensa_hidraulica_manual-1.png, id=290, 605.26125pt x 600.20235pt>
 File: Métodos/prensa_hidraulica_manual-1.png Graphic file (type png)
 <use Métodos/prensa_hidraulica_manual-1.png>
 Package pdftex.def Info: Métodos/prensa_hidraulica_manual-1.png  used on input
  line 26.
 (pdftex.def)             Requested size: 135.82208pt x 134.68253pt.
-<Métodos/pastilhador-1.png, id=285, 792.8019pt x 636.33736pt>
+<Métodos/pastilhador-1.png, id=291, 792.8019pt x 636.33736pt>
 File: Métodos/pastilhador-1.png Graphic file (type png)
 <use Métodos/pastilhador-1.png>
 Package pdftex.def Info: Métodos/pastilhador-1.png  used on input line 33.
 (pdftex.def)             Requested size: 137.56242pt x 110.40915pt.
-<Métodos/path2625-1.png, id=286, 389.5353pt x 145.62405pt>
+<Métodos/path2625-1.png, id=292, 389.5353pt x 145.62405pt>
 File: Métodos/path2625-1.png Graphic file (type png)
 <use Métodos/path2625-1.png>
 Package pdftex.def Info: Métodos/path2625-1.png  used on input line 48.
@@ -1755,36 +1755,36 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 49.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 49.
-<Métodos/path2624-1.png, id=287, 389.5353pt x 145.62405pt>
+<Métodos/path2624-1.png, id=293, 389.5353pt x 145.62405pt>
 File: Métodos/path2624-1.png Graphic file (type png)
 <use Métodos/path2624-1.png>
 Package pdftex.def Info: Métodos/path2624-1.png  used on input line 55.
 (pdftex.def)             Requested size: 185.0141pt x 69.16547pt.
  [8 <./Métodos/prensa_hidraulica_manual-1.png> <./Métodos/pastilhador-1.png>]
-<Métodos/pellet1-1.png, id=298, 813.0375pt x 813.0375pt>
+<Métodos/pellet1-1.png, id=304, 813.0375pt x 813.0375pt>
 File: Métodos/pellet1-1.png Graphic file (type png)
 <use Métodos/pellet1-1.png>
 Package pdftex.def Info: Métodos/pellet1-1.png  used on input line 71.
 (pdftex.def)             Requested size: 116.08885pt x 116.08235pt.
-<Métodos/pellet2-1.png, id=299, 813.0375pt x 813.0375pt>
+<Métodos/pellet2-1.png, id=305, 813.0375pt x 813.0375pt>
 File: Métodos/pellet2-1.png Graphic file (type png)
 <use Métodos/pellet2-1.png>
 Package pdftex.def Info: Métodos/pellet2-1.png  used on input line 78.
 (pdftex.def)             Requested size: 116.08885pt x 116.08235pt.
-<Métodos/pellet3-1.png, id=300, 813.0375pt x 813.0375pt>
+<Métodos/pellet3-1.png, id=306, 813.0375pt x 813.0375pt>
 File: Métodos/pellet3-1.png Graphic file (type png)
 <use Métodos/pellet3-1.png>
 Package pdftex.def Info: Métodos/pellet3-1.png  used on input line 85.
 (pdftex.def)             Requested size: 111.73572pt x 111.72786pt.
  [9 <./Métodos/path2625-1.png> <./Métodos/path2624-1.png> <./Métodos/pellet1
 -1.png> <./Métodos/pellet2-1.png> <./Métodos/pellet3-1.png>]
-<Métodos/plotest-1.png, id=318, 1330.4907pt x 676.80855pt>
+<Métodos/plotest-1.png, id=325, 1330.4907pt x 676.80855pt>
 File: Métodos/plotest-1.png Graphic file (type png)
 <use Métodos/plotest-1.png>
 Package pdftex.def Info: Métodos/plotest-1.png  used on input line 113.
 (pdftex.def)             Requested size: 483.69684pt x 246.04681pt.
  [10]
-<Métodos/Texto do seu parágrafo (1080 x 1080 px)(1)-1.png, id=327, 813.0375pt
+<Métodos/Texto do seu parágrafo (1080 x 1080 px)(1)-1.png, id=333, 813.0375pt
  x 813.0375pt>
 File: Métodos/Texto do seu parágrafo (1080 x 1080 px)(1)-1.png Graphic file (
 type png)
@@ -1792,7 +1792,7 @@ type png)
 Package pdftex.def Info: Métodos/Texto do seu parágrafo (1080 x 1080 px)(1)-1
 .png  used on input line 126.
 (pdftex.def)             Requested size: 174.13033pt x 174.12973pt.
-<Métodos/Texto do seu parágrafo (1080 x 1080 px)-1.png, id=328, 813.0375pt x 
+<Métodos/Texto do seu parágrafo (1080 x 1080 px)-1.png, id=334, 813.0375pt x 
 813.0375pt>
 File: Métodos/Texto do seu parágrafo (1080 x 1080 px)-1.png Graphic file (typ
 e png)
@@ -1800,15 +1800,15 @@ e png)
 Package pdftex.def Info: Métodos/Texto do seu parágrafo (1080 x 1080 px)-1.pn
 g  used on input line 131.
 (pdftex.def)             Requested size: 185.0141pt x 185.00974pt.
- [11 <./Métodos/plotest-1.png> <./Métodos/Texto do seu parágrafo (1080 x 108
-0 px)(1)-1.png> <./Métodos/Texto do seu parágrafo (1080 x 1080 px)-1.png>]
-<Métodos/alvos-1.png, id=338, 881.694pt x 637.78275pt>
+ [11 <./Métodos/plotest-1.png>]
+<Métodos/alvos-1.png, id=341, 881.694pt x 637.78275pt>
 File: Métodos/alvos-1.png Graphic file (type png)
 <use Métodos/alvos-1.png>
 Package pdftex.def Info: Métodos/alvos-1.png  used on input line 146.
 (pdftex.def)             Requested size: 241.84842pt x 174.93826pt.
-) (./4metodos-2.tex
-<Métodos/Captura de tela de 2025-10-24 19-48-51-1.png, id=340, 996.96465pt x 5
+ [12 <./Métodos/Texto do seu parágrafo (1080 x 1080 px)(1)-1.png> <./Métodos
+/Texto do seu parágrafo (1080 x 1080 px)-1.png>]) (./4metodos-2.tex
+<Métodos/Captura de tela de 2025-10-24 19-48-51-1.png, id=351, 996.96465pt x 5
 50.33604pt>
 File: Métodos/Captura de tela de 2025-10-24 19-48-51-1.png Graphic file (type 
 png)
@@ -1816,7 +1816,7 @@ png)
 Package pdftex.def Info: Métodos/Captura de tela de 2025-10-24 19-48-51-1.png 
  used on input line 9.
 (pdftex.def)             Requested size: 338.5863pt x 186.90184pt.
-<Métodos/Captura de tela de 2025-10-24 19-49-27-1.png, id=341, 996.96465pt x 5
+<Métodos/Captura de tela de 2025-10-24 19-49-27-1.png, id=352, 996.96465pt x 5
 50.33604pt>
 File: Métodos/Captura de tela de 2025-10-24 19-49-27-1.png Graphic file (type 
 png)
@@ -1824,23 +1824,49 @@ png)
 Package pdftex.def Info: Métodos/Captura de tela de 2025-10-24 19-49-27-1.png 
  used on input line 10.
 (pdftex.def)             Requested size: 338.5863pt x 186.90184pt.
- [12 <./Métodos/alvos-1.png>]
-[13 <./Métodos/Captura de tela de 2025-10-24 19-48-51-1.png> <./Métodos/Captu
-ra de tela de 2025-10-24 19-49-27-1.png>]) (./5Resultados.tex
-<results/BLP-1-1.png, id=361, 723.06136pt x 334.97145pt>
+ [13 <./Métodos/alvos-1.png>] [14 <./Métodos/Captura de tela de 2025-10-24 19
+-48-51-1.png> <./Métodos/Captura de tela de 2025-10-24 19-49-27-1.png>]) (./5R
+esultados.tex
+<results/grafico 2 com pico2.png, id=369, 419.31656pt x 251.43938pt>
+File: results/grafico 2 com pico2.png Graphic file (type png)
+<use results/grafico 2 com pico2.png>
+Package pdftex.def Info: results/grafico 2 com pico2.png  used on input line 33
+.
+(pdftex.def)             Requested size: 239.42757pt x 143.5713pt.
+<results/grafico 8 com pico.png, id=370, 419.31656pt x 251.43938pt>
+File: results/grafico 8 com pico.png Graphic file (type png)
+<use results/grafico 8 com pico.png>
+Package pdftex.def Info: results/grafico 8 com pico.png  used on input line 38.
+
+(pdftex.def)             Requested size: 239.42757pt x 143.5713pt.
+ [15]
+<results/BLP-1-1.png, id=381, 723.06136pt x 334.97145pt>
 File: results/BLP-1-1.png Graphic file (type png)
 <use results/BLP-1-1.png>
-Package pdftex.def Info: results/BLP-1-1.png  used on input line 33.
+Package pdftex.def Info: results/BLP-1-1.png  used on input line 51.
 (pdftex.def)             Requested size: 483.69684pt x 224.08723pt.
- [14]
-<results/ADS-1-1.png, id=370, 723.06136pt x 291.60945pt>
+<results/ADS-1-1.png, id=382, 723.06136pt x 291.60945pt>
 File: results/ADS-1-1.png Graphic file (type png)
 <use results/ADS-1-1.png>
-Package pdftex.def Info: results/ADS-1-1.png  used on input line 41.
+Package pdftex.def Info: results/ADS-1-1.png  used on input line 59.
 (pdftex.def)             Requested size: 483.69684pt x 195.0792pt.
-)
-(./6Proxpasso.tex) [15 <./results/BLP-1-1.png> <./results/ADS-1-1.png>]
-(./main.bbl [16] [17]) [18]
+ [16 <./results/grafico 2 com pico2.png> <./results/grafico 8 com pico.png> <./
+results/BLP-1-1.png>]) (./6Proxpasso.tex) (./9Anexo.tex
+<results/grafico 8 com picos sep.png, id=393, 505.89pt x 252.945pt>
+File: results/grafico 8 com picos sep.png Graphic file (type png)
+<use results/grafico 8 com picos sep.png>
+Package pdftex.def Info: results/grafico 8 com picos sep.png  used on input lin
+e 6.
+(pdftex.def)             Requested size: 483.69684pt x 241.8518pt.
+<results/grafico 2 com pico.png, id=394, 505.89pt x 252.945pt>
+File: results/grafico 2 com pico.png Graphic file (type png)
+<use results/grafico 2 com pico.png>
+Package pdftex.def Info: results/grafico 2 com pico.png  used on input line 12.
+
+(pdftex.def)             Requested size: 483.69684pt x 241.8518pt.
+ [17 <./results/ADS-1-1.png>])
+(./main.bbl [18 <./results/grafico 8 com picos sep.png> <./results/grafico 2 co
+m pico.png>] [19]) [20]
 This exam contains 0 questions with 0 parts, 0 subparts, and 0 subsubparts.
 (./main.aux)
 
@@ -1850,13 +1876,13 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 928C7C36879A746775C38B4D84FA2EE0;4711.
+(rerunfilecheck)             Checksum: 210D0648BC37DDEF1B8C97D2757B9BEF;4788.
  ) 
 Here is how much of TeX's memory you used:
- 47051 strings out of 478287
- 967193 string characters out of 5849289
+ 47099 strings out of 478287
+ 968459 string characters out of 5849289
  1492902 words of memory out of 5000000
- 64298 multiletter control sequences out of 15000+600000
+ 64333 multiletter control sequences out of 15000+600000
  534676 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  106i,11n,105p,1847b,949s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1874,10 +1900,10 @@ m/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/f
 onts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pf
 b></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/ty
 pe1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb>
-Output written on main.pdf (19 pages, 12939648 bytes).
+Output written on main.pdf (21 pages, 13105399 bytes).
 PDF statistics:
- 498 PDF objects out of 1000 (max. 8388607)
- 404 compressed objects within 5 object streams
- 104 named destinations out of 1000 (max. 500000)
- 298 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 524 PDF objects out of 1000 (max. 8388607)
+ 420 compressed objects within 5 object streams
+ 110 named destinations out of 1000 (max. 500000)
+ 326 words of extra memory for PDF output out of 10000 (max. 10000000)
 
