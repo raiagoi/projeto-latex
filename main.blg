@@ -13,58 +13,62 @@ Case mismatch error between cite keys SmitHolc2004 and smitholc2004
 I'm skipping whatever remains of this command
 The style file: apalike.bst
 Database file #1: 8mybib.bib
-You're missing a field name---line 59 of file 8mybib.bib
+You're missing a field name---line 72 of file 8mybib.bib
  :  year         = {2003},      
  :                              % preencha com o ano correto conforme o documento (se souber)
 I'm skipping whatever remains of this entry
 Warning--entry type for "Seabra_TCC" isn't style-file defined
---line 87 of file 8mybib.bib
+--line 100 of file 8mybib.bib
 Warning--I didn't find a database entry for "Tabacniks_AnalisePIXE_RBS"
 Name 1 in "Bennett, H, and Oliver, G J" has a comma at the end for entry etde_7035934
 while executing---line 1023 of file apalike.bst
 Name 1 in "Bennett, H, and Oliver, G J" has a comma at the end for entry etde_7035934
 while executing---line 1023 of file apalike.bst
+Name 2 in "J. H. Hubbell and C. T. Chantler, and et al." has a comma at the end for entry HubbellChantlerNISTtables
+while executing---line 1023 of file apalike.bst
 Name 1 in "Bennett, H, and Oliver, G J" has a comma at the end for entry etde_7035934
 while executing---line 1098 of file apalike.bst
-You've used 30 entries,
+Name 2 in "J. H. Hubbell and C. T. Chantler, and et al." has a comma at the end for entry HubbellChantlerNISTtables
+while executing---line 1098 of file apalike.bst
+You've used 34 entries,
             1935 wiz_defined-function locations,
-            684 strings with 9804 characters,
-and the built_in function-call counts, 11761 in all, are:
-= -- 1143
-> -- 546
-< -- 18
-+ -- 188
-- -- 186
-* -- 1018
-:= -- 2125
-add.period$ -- 93
-call.type$ -- 30
-change.case$ -- 243
-chr.to.int$ -- 30
-cite$ -- 30
-duplicate$ -- 401
-empty$ -- 762
-format.name$ -- 231
-if$ -- 2244
+            712 strings with 10780 characters,
+and the built_in function-call counts, 13540 in all, are:
+= -- 1314
+> -- 643
+< -- 19
++ -- 224
+- -- 220
+* -- 1186
+:= -- 2442
+add.period$ -- 107
+call.type$ -- 34
+change.case$ -- 280
+chr.to.int$ -- 34
+cite$ -- 34
+duplicate$ -- 453
+empty$ -- 869
+format.name$ -- 271
+if$ -- 2581
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 27
-newline$ -- 155
-num.names$ -- 90
-pop$ -- 180
+missing$ -- 30
+newline$ -- 177
+num.names$ -- 102
+pop$ -- 206
 preamble$ -- 1
-purify$ -- 241
+purify$ -- 278
 quote$ -- 0
-skip$ -- 312
+skip$ -- 351
 stack$ -- 0
-substring$ -- 779
-swap$ -- 29
+substring$ -- 902
+swap$ -- 32
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 174
+type$ -- 198
 warning$ -- 0
-while$ -- 88
+while$ -- 100
 width$ -- 0
-write$ -- 395
-(There were 6 error messages)
+write$ -- 450
+(There were 8 error messages)

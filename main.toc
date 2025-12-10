@@ -17,11 +17,11 @@
 \contentsline {subsection}{\numberline {4.3}Métodos de Medição}{13}{subsection.4.3}%
 \contentsline {subsection}{\numberline {4.4}Métodos de Análise}{14}{subsection.4.4}%
 \contentsline {subsection}{\numberline {4.5}Aproximação para alvos finos}{14}{subsection.4.5}%
-\contentsline {subsection}{\numberline {4.6}Aproximação para alvos grossos}{15}{subsection.4.6}%
+\contentsline {subsection}{\numberline {4.6}Aproximação para alvos espesso}{15}{subsection.4.6}%
 \contentsline {subsection}{\numberline {4.7}PIXE diferencial}{15}{subsection.4.7}%
-\contentsline {section}{\numberline {5}Resultados}{15}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Alvos finos preliminares}{15}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Resultados}{16}{subsection.5.2}%
-\contentsline {section}{\numberline {6}Atividades futuras }{17}{section.6}%
-\contentsline {section}{\numberline {7}Anexo}{17}{section.7}%
-\contentsline {section}{Referências}{18}{figure.caption.16}%
+\contentsline {section}{\numberline {5}Resultados}{16}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Alvos finos preliminares}{16}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Pixe diferencial}{16}{subsection.5.2}%
+\contentsline {section}{\numberline {6}Atividades futuras }{18}{section.6}%
+\contentsline {section}{\numberline {7}Anexo}{18}{section.7}%
+\contentsline {section}{Referências}{19}{figure.caption.16}%

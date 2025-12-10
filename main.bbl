@@ -52,7 +52,7 @@ Dias, J.~J. and de~S.~Carvalho, I. (2020).
 \newblock {\em Journal of South American Earth Sciences}, 98:102443.
 
 \bibitem[Farrell, 2014]{Farrell_2014}
-Farrell, (2014).
+Farrell (2014).
 \newblock Pyritization of soft tissues in the fossil record: An overview.
 \newblock {\em The Paleontological Society Papers}, 20:35–58.
 
@@ -62,6 +62,11 @@ Gomes, A. L.~S. et~al. (2019).
   astrobiological issues: Some contributions and reflections on the brazilian
   fossil record.
 \newblock {\em International Journal of Astrobiology}, pages 1--15.
+
+\bibitem[Hubbell et~al., 2014]{HubbellChantlerNISTtables}
+Hubbell, J.~H., Chantler, C.~T., and et~al. (2014).
+\newblock X-ray form factor, attenuation and scattering tables (version 2.1).
+\newblock \url{https://dx.doi.org/10.18434/T4HS32}.
 
 \bibitem[Ishii and Morita, 1988]{ISHII1988209}
 Ishii, K. and Morita, S. (1988).
@@ -91,6 +96,12 @@ Leo, W.~R. (1994).
 \newblock {\em Techniques for Nuclear and Particle Physics Experiments: A
   How-to Approach}.
 \newblock Springer-Verlag Berlin Heidelberg, 2 edition.
+
+\bibitem[Liu and Cipolla, 1996]{LiuCipolla1996ISICS}
+Liu, Z. and Cipolla, S.~J. (1996).
+\newblock Isics: A program for calculating k-, l- and m-shell cross sections
+  from ecpssr theory using a personal computer.
+\newblock {\em Computer Physics Communications}, 97(3):315--319.
 
 \bibitem[Mayerhöfer et~al., 2023]{Mayerhofer_Pahlow_Popp_2023}
 Mayerhöfer, T.~G., Pahlow, S., and Popp, J. (2023).
@@ -130,6 +141,15 @@ Prado, G., Arthuzzi, J. C.~L., Osés, G.~L., Callefo, F., Maldanis, L.,
 Riquelme, F., Ruvalcaba-Sil, J.~L., and Alvarado-Ortega, J. (2009).
 \newblock Paleometry: Non-destructive analysis of fossil materials.
 \newblock {\em Bol. Soc. Geol. Mex.}, 61(2):177--183.
+
+\bibitem[Rizzutto et~al., 2005]{RIZZUTTO2005549}
+Rizzutto, M., Tabacniks, M., Added, N., Barbosa, M.~L., Curado, J., Santos, W.,
+  Lima, S., Melo, H., and Neiva, A. (2005).
+\newblock The external beam facility used to characterize corrosion products in
+  metallic statuettes.
+\newblock {\em Nuclear Instruments and Methods in Physics Research Section B:
+  Beam Interactions with Materials and Atoms}, 240(1):549--553.
+\newblock Accelerators in Applied Research and Technology.
 
 \bibitem[Schiffbauer et~al., 2014]{Schiffbauer_Wallace_Broce_Xiao_2014}
 Schiffbauer, J.~D., Wallace, A.~F., Broce, J., and Xiao, S. (2014).
@@ -186,5 +206,12 @@ Wang, P. and Chaki, T. (1993).
 \newblock Sintering behaviour and mechanical properties of hydroxyapatite and
   dicalcium phosphate.
 \newblock {\em J. Mater. Sci.: Mater. Med.}, 4:150--158.
+
+\bibitem[Ziegler et~al., 2010]{ZIEGLER20101818}
+Ziegler, J.~F., Ziegler, M., and Biersack, J. (2010).
+\newblock Srim – the stopping and range of ions in matter (2010).
+\newblock {\em Nuclear Instruments and Methods in Physics Research Section B:
+  Beam Interactions with Materials and Atoms}, 268(11):1818--1823.
+\newblock 19th International Conference on Ion Beam Analysis.
 
 \end{thebibliography}

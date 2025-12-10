@@ -21,7 +21,7 @@ Os espectros obtidos foram posteriormente processados e calibrados em energia e 
 Inicialmente para estimar a espessura dos padrões produzidos, foi aproximado sua superfície a filmes finos, de modo a possibilitar o cálculo a partir da equação \ref{eq:alvosfinos}, porém algumas mudanças precisam ser feitas para ter uma melhor aproximação neste caso. Inicialmente há de se considerar que a composição da camada superior tem uma presença de oxigênio, que não é detectado devido aos parâmetros do PIXE. Utilizando da proporção de massa molar de Ferro presente na molécula de Fe${}_2$O${}_3$, temos uma conversão da concentração total em função da concentração de Ferro dada por
 
 \begin{equation}
-	C_{total} \approx C_{Fe} *  1,43
+	C_{total} \approx C_{Fe}  \cdot 1,43
 	\label{eq:concentracao_total}
 \end{equation}
 em que pode ser estimada sem a necessidade de medidas diretas do oxigênio contido na amostra.
@@ -29,19 +29,23 @@ em que pode ser estimada sem a necessidade de medidas diretas do oxigênio conti
 Para encontrar a espessura é preciso correlacionar com a densidade superficial característica do óxido de ferro em questão, sendo em $1 \micro$m tendo $523,96\micro$m $cm^{-2}$. Assim convertendo a equação \ref{eq:alvosfinos} com estes novos parâmetro para encontrar as espessuras média tem-se
 
 \begin{equation}
-	d_{Fe_2O_3} = \frac{Y^{Fe}_{K_\alpha}}{Q_{Fe_2O_3} * r_{K_\alpha}^{E_0}} * 2,73 * 10^{-3}
+	d_{Fe_2O_3} = \frac{Y^{Fe}_{K_\alpha}}{Q_{Fe_2O_3}  \cdot r_{K_\alpha}^{E_0}}  \cdot 2,73  \cdot 10^{-3}
 	\label{eq:d_alvos_finos}
 \end{equation}
 
-com o resultado sendo obtido em $\micro$m. A limitação experimental que se obtêm é somente para a obtenção da corrente de $Q_{Fe_2O_3}$ isoladamente, pois somente é obtida a corrente total da amostra. Porém para uma primeira aproximação é suficiente para investigar estes casos, além de servir como base para a expansão para alvos grossos.
+com o resultado sendo obtido em $\micro$m. A limitação experimental que se obtêm é somente para a obtenção da corrente de $Q_{Fe_2O_3}$ isoladamente, pois somente é obtida a corrente total da amostra. Porém para uma primeira aproximação é suficiente para investigar estes casos, além de servir como base para a expansão para alvos espessos.
 
 
 \begin{equation}
-	d_{Fe_2O_3} = \frac{Y^{Fe}_{K_\alpha}}{Q * r_{K_\alpha}^{E_0}} * 2,73 * 10^{-3}
+	d_{Fe_2O_3} = \frac{Y^{Fe}_{K_\alpha}}{Q \cdot r_{K_\alpha}^{E_0}}  \cdot 2,73  \cdot 10^{-3}
 	\label{eq:d_alvos_finos}
 \end{equation}
   
-\subsection{Aproximação para alvos grossos}
+\subsection{Aproximação para alvos espesso}
+
+Como desenvolvido seguido as equações \ref{eq:alvosfinos}, \ref{eq:Alvos_grossos_inic} e \ref{eq:Alvos_grossosf_fin}, temos que $\tilde{Y}^{Fe}_{K_\alpha} = Y^{Fe}_{K_\alpha} \cdot R_M $ sendo a contagem para a extensão em alvos espessos $\tilde{Y}^{Fe}_{K_\alpha}$, e 
+$Y^{Fe}_{K_\alpha}$ a aproximação inicial de alvos finos. Calculando o valor de $R_M$, é necessário utilizar de aproximações e métodos já consolidados sobre estas variáveis. Inicialmente para a seção de choque, foi selecionado o ECPSSR, um método analítico que estende a aproximação de Born de onda plana (PWBA), que considera a perda de energia (E), a deflexão de Coulomb (C) do projétil, o estado de pertubação estacionária (PSS) e relativística (R), desenvolvido em código como \cite{LiuCipolla1996ISICS}. Para o poder de freamento, é utilizado dos valores tabelados por SRIM \cite{ZIEGLER20101818}{\color{red} TALVEZ SEJA MELHOR AJUSTAR UM POLINÔMIO PARA OS DADOS E UTILIZAR OS VALORES DESSA CURVA}. Já para o coeficiente de atenuação de massa, é utilizado do valor tabelado pela base de dados do FFAST \cite{HubbellChantlerNISTtables}. O feixe de incidência é perpendicular a superfície da amostra, e o do detector se encontra em 45º \cite{RIZZUTTO2005549}. 
+
 \subsection{PIXE diferencial}
  A solução envolve minimizar $\chi^2$ dado por 
 \begin{equation}
